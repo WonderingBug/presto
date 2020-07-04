@@ -85,6 +85,7 @@ public class KuduClientConfig
         return tabletSplitSizeBytes;
     }
 
+
     @MinDuration("1s")
     @MaxDuration("1h")
     public Duration getDefaultAdminOperationTimeout()
